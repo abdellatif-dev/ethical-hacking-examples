@@ -1,18 +1,18 @@
-init:
+#init:
 	sudo nmap -sC -sS $IP
 
-	+ vuln:
+#	+ vuln:
 		sudo nmap -sC -sS --script http-slowloris-check $IP
 
-vuln:
+#vuln:
 	sudo nmap --script http-slowloris-check $IP
 	sudo nmap --script vuln $IP
 
-ports:
+#ports:
 	sudo nmap -p- $IP
 
-version:
+#version:
 	sudo nmap -sV  http-slowloris-check $IP
 
-save in file:
+#save in file:
 	sudo nmap -sC -sS --script http-slowloris-check -oN scan $IP
