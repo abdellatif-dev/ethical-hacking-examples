@@ -14,7 +14,11 @@
 	sudo john -format=raw-sha256 --wordlist=~/tools/wordlists/rockyou.txt  hash.txt
 
 #Bcrypt
-	john -format=bcrypt --wordlist=~/tools/wordlists/rockyou.txt  hash.txt
+	sudo john -format=bcrypt --wordlist=~/tools/wordlists/rockyou.txt  hash.txt
 
 #NTLM:
-	john -format=nt --wordlist=~/tools/wordlists/rockyou.txt  hash.txt
+	sudo john -format=nt --wordlist=~/tools/wordlists/rockyou.txt  hash.txt
+
+#SHA512:
+	sudo john --wordlist=~/tools/wordlists/rockyou.txt hash.txt
+	#$6$<Salt>$<hash>
