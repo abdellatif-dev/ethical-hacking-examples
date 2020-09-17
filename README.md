@@ -1,1 +1,3 @@
-# ethical-hacking-examples
+# EDUCATION PURPOSES ONLY
+
+## ethical-hacking-examples
