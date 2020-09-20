@@ -12,7 +12,7 @@
 	sudo nmap -p- $IP
 
 #version:
-	sudo nmap -sV  http-slowloris-check $IP
+	sudo nmap -sV $IP
 
 #save in file:
 	sudo nmap -sC -sS --script http-slowloris-check -oN scan $IP
