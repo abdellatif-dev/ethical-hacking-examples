@@ -1,7 +1,7 @@
 #init:
 	sudo nmap -sC -sS $IP
 
-#	+ vuln:
+#init + vuln:
 		sudo nmap -sC -sS --script http-slowloris-check $IP
 
 #vuln:
