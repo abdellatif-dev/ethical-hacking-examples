@@ -2,27 +2,22 @@
 # ethical-hacking-examples
 
 ## Introductory Networking
+
 ### The OSI Model: An Overview 
 The OSI (Open Systems Interconnection) Model is a standardised model which we use to demonstrate the theory behind computer networking. In practice, it's actually the more compact TCP/IP model that real-world networking is based off; however the OSI model, in many ways, is easier to get an initial understanding from.
 
 The OSI model consists of seven layers:
 
-OSI
------------
-Application
------------
-Presentation
------------
-Session
------------
-Transport
------------
-Network
------------
-Data Link 
------------
-Physical
------------
+  |      OSI      |
+  |:-------------:|
+  |  Application  |
+  | Presentationc |
+  |    Session    |
+  |   Transport   |
+  |    Network    |
+  |   Data Link   |
+  |    Physical   |
+
 
 There are many mnemonics floating around to help you learn the layers of the OSI model -- search around until you find one that you like.
 
