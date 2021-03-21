@@ -1,11 +1,10 @@
-# OWASP Web Application Security Testing Checklist
-#### By abdellatif-dev 
+# OWASP Web Application Security Testing Checklist By abdellatif-dev 
 
 ## Information Gathering:
 
 - [ ] Manually explore the site
 - [ ] Spider/crawl for missed or hidden content
-- [ ] Check for files that expose content, such as robots.txt, sitemap.xml, .DS_Store
+- [ ] Check for files that expose content, such as robots.txt, sitemap.xml, .DS\_Store
 - [ ] Check the caches of major search engines for publicly accessible sites
 - [ ] Check for differences in content based on User Agent (eg, Mobile sites, access as a Search engine Crawler)
 - [ ] Perform Web Application Fingerprinting
@@ -80,8 +79,7 @@
 
 ## Data Validation:
 
-## Test for Reflected Cross Site Scripting
-
+- [ ] Test for Reflected Cross Site Scripting
 - [ ] Test for Stored Cross Site Scripting Test
 - [ ] for DOM based Cross Site Scripting Test
 - [ ] for Cross Site Flashing
